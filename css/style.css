@@ -1,0 +1,116 @@
+.main-page {
+  height: 100vh;
+  display: flex;
+}
+.side-bar {
+  height: 100vh;
+  width: 50px;
+  background-color: #181818;
+}
+.content-page {
+  width: calc(100vw - 50px);
+  background-image: url("/img/img.jpg");
+  background-size: cover;
+}
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.logo {
+  height: 70px;
+  width: 50px;
+  background: linear-gradient(
+    to right bottom,
+    #2e6227,
+    #326c2b,
+    #397b32,
+    #4faa44
+  );
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.side-bar .nav-link {
+  color: white;
+}
+.active {
+  color: #4faa44;
+}
+.social-media-icons i {
+  color: white;
+}
+.section-1 {
+  height: 100vh;
+}
+.section-1 h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+.hidden {
+  display: none;
+}
+.section-1 p {
+  font-size: 1.3em;
+}
+.section-2 {
+  height: 100vh;
+  position: absolute;
+
+  top: 0%;
+}
+.left-slider {
+  height: 100vh;
+  background-color: #2a2c30;
+  overflow: auto; /* Enables scrolling */
+  scrollbar-width: none;
+}
+.section-1-2 {
+  position: relative;
+  height: 40%;
+}
+.left-slider::-webkit-scrollbar {
+  width: 0; /* Hides the scrollbar for WebKit browsers */
+  height: 0; /* Hides the scrollbar for horizontal scroll */
+}
+.left-slider::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hides the thumb */
+}
+.left-slider::-webkit-scrollbar-track {
+  background-color: transparent; /* Hides the track */
+}
+
+.img-box {
+  height: 100vh;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+}
+.left-slider h1 {
+  font-size: 6em;
+  font-weight: 800;
+  color: #34363a;
+}
+.text-1 {
+  width: 60%;
+  position: absolute;
+  font-size: 1.1em;
+  top: 30%;
+  text-align: center;
+  left: 20%;
+  color: #a1a1a1;
+}
+.my-card {
+  height: 250px;
+  border-radius: 20px;
+  background-color: #404448;
+}
+.p-colr {
+  color: #a3a3a4;
+}
+a {
+  text-decoration: none;
+}
